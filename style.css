@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+
+}
+body{
+     background-color: black;
+}
+.main-container{
+     height: 80vh;
+     background-image:url('https://github.com/CodeWithHarry/Sigma-Web-Dev-Course/blob/main/Video%2053/assets/images/bg.jpg?raw=true') ;
+     opacity: 0.85;
+    position: relative;
+      background-position: center center;
+}
+.nav-bar{
+     max-width: 960px;
+     display: flex;
+     justify-content:space-between;
+     margin-left: 8rem;
+     height: 4rem;
+}
+.logo{
+     color: red;
+     padding: 1.5rem 0rem;
+     height: 2.5rem;
+       z-index: 10;
+       position: relative;
+}
+.nav-button{
+      margin:  1.5rem 0.8rem;
+      padding: 0.5rem 0.85rem;
+      border-radius: 5px;
+      color: white;
+     font-weight: bold;
+      background-color: red;
+      border: none;
+          z-index: 10;
+            position: relative;
+    }
+#lang{
+      margin:  1.5rem 0.5rem;
+      padding: 0.36rem 0.8rem;
+      padding-right: 0.5rem;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      background-color: black;
+      border: 2px solid white;
+}
+.main-content{
+     max-width: 960px;
+     margin-left: 8rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.hero-content{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+     margin-top: 12rem;
+     text-align: center;
+}
+.heading{
+     color: white;
+     font-size: 2.6rem;
+     font-weight: bold;
+}
+.heading-des{
+     color: white;
+     font-size: 1.3rem;
+     padding: 0.5rem;
+}
+.heading-para{
+     color: white;
+     padding: 0.5rem;
+}
+.email-button{
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0rem;
+}
+.button-get{
+     font-size: 1.5rem;
+     color: white;
+     padding: 0.6rem 1rem;
+     border: none;
+     border-radius: 5px ;
+     background-color: red;
+}
+.email-add{
+     border-radius: 5px;
+     border: 1px solid white;
+     background-color:black;
+     color: white;
+     padding: 1rem 1rem;
+     padding-right: 8rem;
+}
+.sepration{
+     background-color: grey;
+     opacity: 0.6;
+     height: 0.6rem;
+     
+}
+.section-one{
+     height: 50vh;
+}
+.section-content-one{
+     display: flex;
+     max-width: 999px;
+     margin-left: 8rem;
+     height: 100%;
+}
+.left-box{
+     max-width: 50%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+}
+.heading-box{
+     color: white;
+     font-size: 2.5rem;
+     padding: 0.55rem;
+}
+.para-box{
+     color: white;
+     font-size: 1.45rem;
+     padding: 0.3rem;
+}
+.right-box{
+    position: relative;
+}
+.img-box{
+     position: relative;
+     height: 80%;
+}
+.Video{
+    position: absolute;
+    top: 70px;
+    right: 65px;
+    z-index: -1;
+    height: 50%;
+}
+.section-two{
+     height: 50vh;
+}
+.section-content-two{
+     display: flex;
+     max-width: 999px;
+     margin-left: 8rem;
+     justify-content: center;
+     align-items: center;
+}
+.left-box-two{
+     width: 50%;
+     height: 100%;
+}
+.left-box-two-img{
+     padding-top: 1rem;
+   height: 20rem;
+}
+.right-box-two{
+     width: 50%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.right-box-heading{
+     padding-top: 3rem;
+     color: white;
+     font-size: 2.8rem;
+     max-width: 75%;
+}
+.right-box-para{
+     color: white;
+     font-size: 1.2rem;
+     max-width: 75%;
+}
+#video-three{
+     position: absolute;
+     right: 57;
+     top: 15;
+     z-index: -1;
+     height: 40%;
+     width: 75%;
+}
+.faq-container{
+     height: 75vh;
+}
+.faq-content{
+     max-width: 960px;
+     display: flex;
+     flex-direction: column;
+     margin-left: 12rem;
+     gap: 0.8em;
+}
+.faq-heading{
+     margin-right: 2rem;
+     text-align: center;
+     font-size: 2.9rem;
+    padding: 1rem 0rem;
+     color: white;
+}
+.faq-quest{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     background-color: #2d2d2d;
+     max-width: 800px;
+     padding: 0.9rem  0.8rem;
+     margin-left: 1.5rem;
+     transition: all 2s ease-out;
+}
+.faq-quest span{
+     color: white;
+     font-size: 1.5rem;
+     
+}
+.faq-quest svg {
+    filter: invert(1);
+}
+.faq-quest:hover {
+    background-color: #414141;
+}
+.email-heading{
+     color: white;
+     text-align: center;
+     padding-top: 1.5rem;
+}
+.footer{
+     height: 36vh;
+     max-width: 960px;
+     margin-left: 10.5rem;
+     margin-top: 5rem;
+     opacity: 0.7;
+}
+.GRID-FOOTER{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+}
+.column a{
+     color: white;
+     text-decoration: underline;
+}
+.column{
+     display: flex;
+     flex-direction: column;
+     gap: 0.6rem;
+     }
+.footer p{
+     color: white;
+     padding-bottom: 1rem;
+}
+.footer span{
+     color: white;
+     
+}
+#lang-footer{
+     background-color: black;
+     color: white;
+     width: 6.3rem;
+     border-radius: 3.5px;
+     padding: 0.3rem 0.3rem;
+}
