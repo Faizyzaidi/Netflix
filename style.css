@@ -10,7 +10,7 @@ body{
      background-color: black;
 }
 .main-container{
-     height: 80vh;
+     height: 95vh;
      background-image:url('https://github.com/CodeWithHarry/Sigma-Web-Dev-Course/blob/main/Video%2053/assets/images/bg.jpg?raw=true') ;
      opacity: 0.85;
     position: relative;
@@ -110,7 +110,7 @@ body{
      
 }
 .section-one{
-     height: 50vh;
+     height: 75vh;
 }
 .section-content-one{
      display: flex;
@@ -151,7 +151,7 @@ body{
     height: 50%;
 }
 .section-two{
-     height: 50vh;
+     height: 75vh;
 }
 .section-content-two{
      display: flex;
@@ -196,7 +196,7 @@ body{
      width: 75%;
 }
 .faq-container{
-     height: 75vh;
+     height: 98vh;
 }
 .faq-content{
      max-width: 960px;
